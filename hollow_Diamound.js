@@ -1,7 +1,7 @@
-<script>
-	let n=parseInt(prompt("Enter the Size :"));
-	var i,j,z;k=2;
-	for(i=1;i<=n;i++){
+
+var n=parseInt(prompt("Enter The Size:"));
+var i,j,z;k=2;
+for(i=1;i<=n;i++){
 		for(z=i;z<=n;z++){
 			document.write("&nbsp;");
 			document.write("&nbsp;");
@@ -30,4 +30,3 @@
 		if(i>=2){k-=2;}
 		document.write("<br>");
 	}
-</script>
